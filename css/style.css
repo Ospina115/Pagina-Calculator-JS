@@ -253,7 +253,7 @@ body {
     --c-3: hsla(287, 85%, 73%, 0.42);
     background-color: hsla(198, 0%, 0%, 1);
     background-image: radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3));
-    animation: hero-gradient-animation 10s linear infinite alternate;
+    animation: hero-gradient-animation 5s linear infinite alternate;
     background-blend-mode: overlay, normal, normal, normal;
 }
 
@@ -273,7 +273,7 @@ body.dark {
     --c-3: hsla(287, 85%, 73%, 0.42);
     background-color: hsla(198, 0%, 0%, 1);
     background-image: radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3));
-    animation: hero-gradient-animation 10s linear infinite alternate;
+    animation: hero-gradient-animation 5s linear infinite alternate;
     background-blend-mode: overlay, normal, normal, normal;
 }
   
@@ -294,6 +294,21 @@ body.light {
     ;
     background-color: hsla(197.99999999999957, 0%, 100%, 1);
     background-image: radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3));
-    animation: hero-gradient-animation 10s linear infinite alternate;
+    animation: hero-gradient-animation 5s linear infinite alternate;
     background-blend-mode: overlay, normal, normal, normal;
+}
+
+#theme-toggle{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background: #fff;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px #74747420,
+    -5px -5px 8px #4e4e4e;
 }
